@@ -1,0 +1,45 @@
+"""
+syntex :
+
+var = input("your prompt")
+"""
+name = input("enter your name")
+print("your name is:",name)
+
+gender = input("enter your gender")
+print("your gender is :",gender)
+
+age = input("enter your age")
+print("your age is :",age)
+
+product = input("enter product name")
+print("enter product name",product)
+
+gram = input("enter product gram")
+print("your product gram :",gram)
+
+print(gram)
+
+gram = int(input("enter your age : "))
+if gram < 30 :
+       print("youre eligible for discount")
+else:
+       print("your not eligible for discount")
+       
+discount = int(input("enter your amount :"))
+if discount >= 0 and marks <= 10000:
+    if discount >= 70000 and marks <= 100000:
+        print("your eligible")
+    elif marks >= 100000 and marks <= 400000:    
+        print("your eligible")
+    elif marks >= 50 and marks <= 60:    
+        print(c)
+    else:
+        print(fail)
+
+else: 
+    print("invalid input")
+
+
+
+
